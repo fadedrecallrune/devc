@@ -9,7 +9,7 @@ const keys = require('../../config/keys')
 //load user model
 const User = require("../../models/users");
 
-//load input validations
+//load input validation
 const validateRegisterInput = require('../../validation/register')
 const validateLoginInput = require('../../validation/login')
 
